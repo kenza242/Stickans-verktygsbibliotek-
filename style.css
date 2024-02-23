@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 50vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffff;
+    display: grid;
+    
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2F23;
+    color: #ffff;
+    font-size: 10px;
+    
+
+}
+.logo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+left: 27%;
+right: 26%;
+top: 30%;
+bottom: 70%;
+background: url(img/logo.jpg);
+mix-blend-mode: multiply;
+
+}
+
+button {
+    height: 60px;
+    width: 250px;
+    background-color: #1E2F23;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+
+
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    height: 100vh;
+    margin: 10%;
+}
+
+
+.button-container button {
+    margin-bottom: 100px; 
+    padding: 10px;  
+}
+
+.tool {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center ; 
+    align-items: center; 
+    border:solid 5px #1E2F23;
+    color: #1E2F23;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.tool h4 p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.h-2{
+    height: 7vh;
+    color: #ffff;
+
+}
+.info{
+    height: 85vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.borrowed-container {
+    
+    height: 90vh;
+    
+    color: #1E2F23;
+    text-align: center;
+    
+
+}
+.borrowed-container p{
+    margin-top: 5px;
+}
+
+.B3{
+    height: 90vh;
+    align-items: center;
+    color: #1E2F23;
+    text-align: center;
+    
+}
+
