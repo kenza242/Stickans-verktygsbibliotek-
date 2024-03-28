@@ -5,8 +5,8 @@
 }
 body {
     height: 50vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ffff;
+    font-family: Arial, sans-serif;
+    background-color: #607744;
     display: grid;
     
 }
@@ -66,24 +66,36 @@ button {
     padding: 10px;  
 }
 
-.tool {
-    width: 100%;
-    height: 100%;
+main {
     display: grid;
-    grid-template-columns: auto;
-    justify-content: center ; 
-    align-items: center; 
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7,1fr);
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.tool {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
     border:solid 5px #1E2F23;
     color: #1E2F23;
     padding: 50px;
-    margin-top: 50px;
-    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 .tool h4 p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
     
 }
 
@@ -101,22 +113,79 @@ button {
 
 .borrowed-container {
     
-    height: 90vh;
-    
+    height: 80vh;
+    justify-content: center;
     color: #1E2F23;
     text-align: center;
+    margin-top: 80px;
     
 
 }
-.borrowed-container p{
-    margin-top: 5px;
-}
+
 
 .B3{
-    height: 90vh;
+    height: 80vh;
     align-items: center;
+    justify-content: center;
+    margin-top: 100px;
     color: #1E2F23;
     text-align: center;
     
+
 }
 
+.overview-button{
+    background-color: #607744;
+    height: 25px;
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 50%;
+    border-radius: 5px;
+    align-items: center;
+}
+.home-button{
+    background-color: #607744;
+    height: 25px;
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 75%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+/*Översikt*/
+
+.overview-main{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    & h2 {
+        margin-top: 20px;
+        color: #ffff;
+    }
+.loan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+
+    & .item {
+        color: #ffff;
+        border: 3px solid #1E2F23;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+
+         & h3 {
+            margin-bottom: 5px;
+
+         }
+
+    }
+}
+
+}
